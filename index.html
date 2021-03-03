@@ -7,11 +7,11 @@
     <title>Alexan Lima</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,600&display=swap"
-        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2? family = Averia + Sans + Libre: wght @ 300; 400; 700 & display = swap "
+        rel=" stylesheet ">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/index.css">
 
     <script src="javascript/javascript.js"></script>
@@ -20,14 +20,21 @@
 <body>
     <header class="destaque">
         <div class="topnav" id="myTopnav">
-            <a href="#home" class="active">Home</a>
-            <a href="#news">Sobre</a>
-            <a href="#contact">Portfolio</a>
-            <a href="#about">Contato</a>
+            <a href="#" class="active">Slogan</a>
+            <a href="#">Sobre</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contato</a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Buscar..." name="search">
+                  <button type="submit">Buscar</button>
+                </form>
+              </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
         </div>
+        <img src="assets/png/000.png" alt="Arte Ilustração" class="arte__nav">
     </header>
     <script>
         /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
@@ -43,31 +50,60 @@
 
     <div>
         <section class="sobre">
-            <img src="assets/png/alexan.png" alt="Foto de Alexan em ArteDigital" class="sobre__imagem">
+            <img src="assets/png/alexan.png" alt="Imagem de Alexan em Cartoon" class="sobre__imagem">
             <h1 class="sobre__titulo">Alexan Lima</h1>
-            <h2 class="sobre__subtitulo">Ilustradora e UX Design</h2>
-            <p class="sobre__texto">texto sobre mim e etc.</p>
+            <h2 class="sobre__subtitulo">Ilustradora e UX/UI Design</h2>
+            <p class="sobre__texto">Alexan Lima é uma amante das artes onde tenta expor sua criativade e espontaneadade em seus trabalhos.
+                Desde pequena está envolvida nos lapis e papel. Estudante de TI com foco em UX/UI Design e estudante de
+                dança pela universidade Federal da Bahia - UFBA.</p>
         </section>
 
-        <section class="Portfolio">
-            <h2 class="portfolio__titulo">Portfolio</h2>
-            <img src="assets/png/Rectangle 337.png" alt="" class="portfolio__imagem">
-            <h3 class="portfolio__titulo___imagem">Nome do Trabalho</h3>
-            <p class="portfolio__descricao">Descrição</p>
-            <img src="assets/png/Rectangle 337.png" alt="" class="portfolio__imagem">
-            <h3 class="portfolio__titulo___imagem">Nome do Trabalho</h3>
-            <p class="portfolio__descricao">Descrição</p>
-            <img src="assets/png/Rectangle 337.png" alt="" class="portfolio__imagem">
-            <h3 class="portfolio__titulo___imagem">Nome do Trabalho</h3>
-            <p class="portfolio__descricao">Descrição</p>
-            <img src="assets/png/Rectangle 337.png" alt="" class="portfolio__imagem">
-            <h3 class="portfolio__titulo___imagem">Nome do Trabalho</h3>
-            <p class="portfolio__descricao">Descrição</p>
-            <img src="assets/png/Rectangle 337.png" alt="" class="portfolio__imagem">
-            <h3 class="portfolio__titulo___imagem">Nome do Trabalho</h3>
-            <p class="portfolio__descricao">Descrição</p>
+        <section class="portfolio">
+            <h2 class="portfolio__titulo">Portfólio</h2>
+            <a href="#" class="portfolio__link">
+                <img src="assets/png/loading_____by_smashingrenders_db4f4do-fullview.jpg" alt="Ilustração" class="portfolio__imagem">
+                <h3 class="portfolio__titulo___imagem">Titulo</h2>
+                <p class="portfolio__descricao">Pequena descrição</p>
+            </a>
+            <a href="#" class="portfolio__link">
+                <img src="assets/png/loading_____by_smashingrenders_db4f4do-fullview.jpg" alt="Ilustração" class="portfolio__imagem">
+                <h3 class="portfolio__titulo___imagem">Titulo</h2>
+                <p class="portfolio__descricao">Pequena descrição</p>
+            </a>
+            <a href="#" class="portfolio__link">
+                <img src="assets/png/loading_____by_smashingrenders_db4f4do-fullview.jpg" alt="Ilustração" class="portfolio__imagem">
+                <h3 class="portfolio__titulo___imagem">Titulo</h2>
+                <p class="portfolio__descricao">Pequena descrição</p>
+            </a>
+            <a href="#" class="portfolio__link">
+                <img src="assets/png/loading_____by_smashingrenders_db4f4do-fullview.jpg" alt="Ilustração" class="portfolio__imagem">
+                <h3 class="portfolio__titulo___imagem">Titulo</h2>
+                <p class="portfolio__descricao">Pequena descrição</p>
+            </a>
         </section>
     </div>
+        <form action="/action_page.php" class="formulario">
+            <h2 class="formulario__contato">Contato</h2>
+            <label for="fname">Nome e Sobrenome:</label>
+            <input type="text" placeholder="Nome e Sobrenome" id="fname" name="fname"><br><br>
+            <label for="email">Email:</label>
+            <input type="text" placeholder="exemplo@email.com" id="email" name="email"><br><br>
+            <label for="mensagem">Mensagem:</label>
+            <input type="text" placeholder="..." id="mensagem" name="mensagem"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+    <footer>
+        <p>CEP: 44695-000 <br>
+            Capim Grosso - BA <br><br>
+            alexancgg@gmail.com
+        </p>
+        <a href="#"><img src="#" alt="Slogan"></a>
+        <a href="#"><img src="assets/svg/linkedin.svg" alt="Linkedin"></a>
+        <a href="#"><img src="assets/svg/instagram.svg" alt="Instagram"></a>
+        <a href="#"><img src="assets/svg/pinterest.svg" alt="Pinterest"></a>
+    </footer>
+
+
 </body>
 
 </html>
