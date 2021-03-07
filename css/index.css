@@ -103,14 +103,21 @@ body {
 
 .sobre__texto {
     text-align: center;
-
     font-family: "Averia Sans Libre", cursive;
     font-style: normal;
     font-weight: 300;
-
     margin-top: 1rem;
 }
 
+.portfolio__padrao {
+    background-color: #3B3432;
+    margin-top: 2rem;
+    width: 80%;
+    box-sizing: border-box;
+    border: 5px solid #000000;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 .portfolio__titulo {
     text-align: center;
@@ -121,10 +128,9 @@ body {
     color: #000000;
     margin-top: 5rem;
 }
+
 .portfolio__imagem {
-    margin-top: 2rem;
-    margin-left: 10%;
-    width: 80%;
+    width: 100%;
 }
 
 .portfolio__titulo___imagem {
@@ -133,14 +139,15 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
+    color: #FADFD6;
 }
 
 .portfolio__descricao {
     text-align: center;
-
+    color: #FADFD6;
     font-family: "Averia Sans Libre", cursive;
     font-style: normal;
     font-weight: 300;
-
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
